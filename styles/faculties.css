@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* ==========================HEADER========================== */
+.header {
+	background-color: rgb(39, 39, 128);
+}
+
+.top {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	text-shadow: 4px 4px black;
+	font-size: 26px;
+	padding: 30px 10px;
+	gap: 30px;
+}
+.nav ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+}
+.nav {
+	background-color: rgba(97, 160, 205, 0.841);
+	width: 100%;
+}
+.nav li a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+/* ============================FOOTER====================== */
+footer {
+	margin-top: 50px;
+	background-color: rgb(39, 39, 128);
+	padding: 20px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 2px black;
+}
+.container {
+	margin: 0 200px;
+}
+
+/* ========================FACULTIES.HTML=================== */
+.main {
+	margin-top: 20px;
+	font-size: 28px;
+	color: black;
+}
+.main h2 {
+	margin-bottom: 50px;
+}
+.faculty-content {
+	display: flex;
+	gap: 100px;
+	padding-left: 100px;
+}
+.faculty-content img {
+	width: 300px;
+	height: 200px;
+}
+.faculty-name {
+	font-size: 28px;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+
+.faculty-content li {
+	font-size: 24px;
+}
+.faculty-card {
+	margin-bottom: 70px;
+}
